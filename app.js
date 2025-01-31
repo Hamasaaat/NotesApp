@@ -55,6 +55,7 @@ function updateNote(index, notes) {
     addButton.removeEventListener("click", updateNote);
     addButton.addEventListener("click", addNewNote);
     addButton.textContent="Add Note";
+    cancelButton.style.display = "none";
   }
 }
 
